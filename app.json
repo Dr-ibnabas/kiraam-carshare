@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "KIRAAM CARSHARE",
+    "slug": "kiraam-carshare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "kiraam",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6AB2E7"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dj.kiraam.carshare",
+      "infoPlist": {
+        "NSCameraUsageDescription": "KIRAAM a besoin d'accéder à votre caméra pour prendre des photos des véhicules et de votre pièce d'identité.",
+        "NSPhotoLibraryUsageDescription": "KIRAAM a besoin d'accéder à vos photos pour ajouter des images à vos annonces.",
+        "NSLocationWhenInUseUsageDescription": "KIRAAM a besoin de votre localisation pour trouver les véhicules disponibles près de vous à Djibouti.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "KIRAAM a besoin de votre localisation pour vous géolocaliser lors de la prise en charge du véhicule.",
+        "NSMicrophoneUsageDescription": "KIRAAM a besoin du microphone pour les messages vocaux et la recherche."
+      }
+    },
+    "android": {
+      "package": "dj.kiraam.carshare",
+      "adaptiveIcon": {
+        "backgroundColor": "#6AB2E7"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "VIBRATE",
+        "NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Autoriser KIRAAM à utiliser votre position pour trouver les véhicules disponibles près de vous."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "KIRAAM accède à vos photos pour ajouter des images aux annonces."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "minSdkVersion": 24
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
+        }
+      ]
+    ]
+  }
+}

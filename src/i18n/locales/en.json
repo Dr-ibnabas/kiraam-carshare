@@ -1,0 +1,56 @@
+{
+  "common": {
+    "appName": "KIRAAM CARSHARE",
+    "slogan": "Rent. Drive. Share.",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "save": "Save",
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip",
+    "done": "Done",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading…",
+    "error": "Error",
+    "retry": "Retry",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "currency": "Fdj",
+    "perDay": "/day",
+    "verified": "Verified",
+    "noResults": "No results"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Get started",
+    "slide1Title": "Find the perfect car",
+    "slide1Subtitle": "Hundreds of vehicles available across Djibouti, rent in just a few clicks.",
+    "slide2Title": "Rent out your car",
+    "slide2Subtitle": "Make money from your car with full confidence. Verifications, insurance and secure payments.",
+    "slide3Title": "Explore Djibouti",
+    "slide3Subtitle": "Lake Assal, Lake Abbé, beaches... Rent a 4x4 and go on an adventure!"
+  },
+  "auth": {
+    "loginTitle": "Welcome",
+    "loginSubtitle": "Sign in to continue",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "login": "Sign in",
+    "register": "Sign up",
+    "logout": "Sign out"
+  },
+  "home": {
+    "greeting": "Hello",
+    "categories": "Categories",
+    "featured": "Featured",
+    "nearby": "Near you"
+  }
+}
